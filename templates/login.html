@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<h1>LOGIN PAGE</h1>
+<div style="color: red; font-weight: bold; font-size: 25px">{{ msg }}</div>
+<form action="/login" method="post">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username" placeholder="Username"><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" placeholder="password"><br><br>
+  <input type="submit" value="Submit">
+<a href="/">HOME</a> | <a href="/login">LOGIN</a> | <a href="/admin_upload">ADMIN: Upload</a> | <a href="/list">LIST BIKES</a>
+
+</body>
+</html>

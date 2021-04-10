@@ -1,0 +1,24 @@
+﻿Bike Name,Manufacturer,price,gear,gear_rating,suspension,suspension_rating,wheels,wheel_rating
+Twostroke,BMC,1200,12,0.7,1,7.4,27,3.9
+Midtown,Breezer,1100,21,1.6,1,6.3,26,3.6
+Velox,Corsa,900,12,0.6,1,7.2,29,2.6
+Mammoth,Corsa,300,18,1.6,0,0,29,2.3
+Release 23,Diamondback,899,21,0.6,1,7.2,26,1.7
+Catch 1,Diamondback,1199,18,0.9,1,4.1,27,2.3
+Atroz 1,Diamondback,450,18,1.7,0,0,29,2.3
+Catch 2,Diamondback,750,12,1.6,1,6.3,26,2.6
+Atroz 3,Diamondback,999,12,1.6,1,6.3,27,3.3
+Catch 3,Diamondback,1099,18,1.3,0,0,29,1.7
+Atroz 2,Diamondback,2099,21,0.7,1,6.5,29,2.6
+Downtown,Breezer,1100,18,1.6,1,6.3,26,3.3
+Inversion,Breezer,599,21,1.6,0,0,27,2.3
+Thunder,Breezer,550,18,0,1,6.1,26,2
+Doppler,Breezer,250,3,0.7,1,7.2,29,1.7
+Radar,Breezer,899,18,1.6,0,0,29,1.4
+Fourstroke,BMC,1300,21,1,1,7.2,26,2.3
+Speedfox,BMC,1100,21,0,1,7.2,27,1.7
+Blast,BMC,899,21,1,0,0,29,1.4
+Speedfox AMP,BMC,499,21,0.7,1,7.2,26,1.7
+Marabu,Corsa,250,3,0.7,1,7.2,27,3.7
+Classic Mint,Corsa,150,3,0.6,0,0,27,1.1
+Style White,Corsa,75,3,0.6,1,7.8,27,1.1

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Upload</title>
+</head>
+<body>
+<h1>ADMIN PAGE</h1>
+<a href="/">HOME</a> |
+    {%  if username == "" %}<a href="/login">LOGIN</a> |
+    {% else %} <a href="/logout">LOGOUT</a>{% endif %}
+    {%  if isAdmin == True %}<a href="/admin_upload">ADMIN: Upload</a> | {% endif %}
+    <a href="/list">LIST BIKES</a>
+
+
+<h2>Upload a new file</h2>
+<form action='/admin_upload' method="POST" enctype="multipart/form-data">
+    <p><input type='file' name='file' accept=".csv">
+    <input type='submit' value='upload'>
+    </p>
+</form>
+
+</body>
+</html>

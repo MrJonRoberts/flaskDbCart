@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>CART PAGE</h1>
+<a href="/">HOME</a> |
+    {%  if username == "" %}<a href="/login">LOGIN</a> |
+    {% else %} <a href="/logout">LOGOUT</a>{% endif %}
+    {%  if isAdmin == True %}<a href="/admin_upload">ADMIN: Upload</a> | {% endif %}
+    <a href="/list">LIST BIKES</a>
+<hr/>
+
+You added the following to your cart: <br/>
+<table>
+    <tr><th>NAME</th><th>Manufacturer</th><th>No Gears</th><th>Suspension</th><th>Wheels</th><th>Price</th></tr>
+<tr><td>{{ bike.name }}</td><td>{{bike.man}}</td>
+            <td>
+                {%  if bike.specs[0] %}
+                    {{bike.specs[0].gear }}
+                {% else %}
+                    NA
+                {% endif %}
+            </td>
+            <td>
+                {%  if bike.specs[1] %}
+                    Yes
+                {% else %}
+                    NA
+                {% endif %}
+            </td>
+            <td>
+                {%  if bike.specs[2] %}
+                    {{bike.specs[2].wheel }} inches
+                {% else %}
+                    NA
+                {% endif %}
+            </td>
+            <td>$${{bike.price }}</td>
+              <td><a href="/checkout/{{ bike.id }}">Checkout</a></td>
+        </tr>
+</table>
+</body>
+</html>
