@@ -1,40 +1,9 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@MrJonRoberts
-MrJonRoberts
-/
-flaskDbCart
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-flaskDbCart/.gitignore
-@MrJonRoberts
-MrJonRoberts Initial commit
-Latest commit ae9167b 1 minute ago
- History
- 1 contributor
-129 lines (105 sloc)  1.76 KB
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
+.idea/
 # C extensions
 *.so
 
