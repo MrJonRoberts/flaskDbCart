@@ -4,13 +4,17 @@ import datetime
 
 DEBUG = True
 DATABASE = "data/bikes.db"
+
+
 def dict_factory(cursor, row):
     d = {}
     for idx, col in enumerate(cursor.description):
         d[col[0]] = row[idx]
     return d
+
+
 def logger(msg="", error=False):
-    if (DEBUG or error):
+    if DEBUG or error:
         now = datetime.datetime.now()
         if msg == "":
             print()

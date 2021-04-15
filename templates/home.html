@@ -6,7 +6,9 @@
 </head>
 <body>
 <h1>HOME PAGE</h1>
+
 Welcome {{ username }} <br/>
+<!-- logged in menu -->
 <a href="/">HOME</a> |
     {%  if username == "" %}<a href="/login">LOGIN</a> |
     {% else %} <a href="/logout">LOGOUT</a>{% endif %}
